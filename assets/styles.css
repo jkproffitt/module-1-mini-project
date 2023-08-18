@@ -1,32 +1,56 @@
 /*
 $primary-color-grey: #A1A6B4;
 $secondary-color-seafoame: #94C5CC;
-$accent-baby-blue: ##94C5CC;
+$accent-baby-blue: #a8e7f1;
 $black: #black;*/
-
-html {
+/* TODO: Universal Selectors */
+* {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
     color: black;
 }
 
+/* TODO: Element Selectors */
 body {
     margin: 0;
     background-color: #e2e5ed;
-    color: black;
+    
 }
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+ul {
+    text-align: right;
+    font-size: 1rem;
+    position: fixed;
+    top: 2rem;
+    right: 1rem;
+    
+  }
+
+li {
+    list-style-type: none;
+    display: inline;
+    text-decoration: 2px solid underline #a8e7f1; 
+   }
 
 section {
     text-align: center;
+    height: 100%;
 }
 
+img{
+    width:20rem;
+    height:20rem;
+    border: 8px #A1A6B4 solid;
+}
+
+/* TODO: Class Selectors */
 .contactInfo {
-    background: #94C5CC;
+    background: #A1A6B4;
     text-align: center;   
 }
 
@@ -41,16 +65,25 @@ label {
 input {
     margin-top: .5rem;
     min-width: 15em;
+    border-radius: 0.25rem;
+    border: none;
 }
 
+/* TODO: Label Selector */
 #email {
     margin-bottom: .5rem;
     min-width: 20em;
 }
 
+#submit {
+    background-color: #a8e7f1;
+    font-weight: bold;
+    margin: .5rem 1rem;
+}
+
 footer {
-    margin-top: 10em;
+    margin-top: .5em;
     text-align: center;
     font-size: 1rem;
-    color: black;
+    color: #A1A6B4;
 }
