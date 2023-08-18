@@ -29,13 +29,14 @@ ul {
     top: 2rem;
     right: 1rem;
     
-  }
+}
 
 li {
     list-style-type: none;
     display: inline;
     text-decoration: 2px solid underline #a8e7f1; 
-   }
+    cursor: pointer;
+}
 
 section {
     text-align: center;
